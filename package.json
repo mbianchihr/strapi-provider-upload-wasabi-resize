@@ -1,0 +1,48 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "aws-sdk": "^2.497.0",
+    "sharp": "^0.22.1"
+  },
+  "deprecated": false,
+  "description": "S3 provider for strapi upload with resize capabilities",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/WeFlyCheap/strapi-provider-upload-aws-s3-resize",
+  "keywords": [
+    "upload",
+    "strapi"
+  ],
+  "main": "./lib",
+  "name": "strapi-provider-upload-aws-s3-resize",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WeFlyCheap/strapi-provider-upload-aws-s3-resize.git"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "version": "0.0.1",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "jelmervisser",
+    "email": "jelmer@weflycheap.nl",
+    "url": "https://www.weflycheap.nl"
+  },
+  "maintainers": [
+    {
+      "name": "jelmervisser",
+      "email": "jelmer@weflycheap.nl",
+      "url": "https://www.weflycheap.nl"
+    }
+  ]
+}
