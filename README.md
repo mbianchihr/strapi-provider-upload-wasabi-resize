@@ -1,5 +1,8 @@
 # strapi-provider-upload-aws-s3-resize
 
+
+// WARNING: Still HEAVYILY WIP, use at your own risk!
+
 Wasabi upload and resizeing with image opitmization in Strapi.
 
 ```
