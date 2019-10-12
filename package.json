@@ -5,7 +5,7 @@
     "sharp": "^0.22.1"
   },
   "deprecated": false,
-  "description": "S3 provider for strapi upload with resize capabilities",
+  "description": "Wasabi provider for strapi upload with resize capabilities for images only",
   "directories": {
     "lib": "lib"
   },
@@ -14,13 +14,16 @@
     "npm": ">= 5.3.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/WeFlyCheap/strapi-provider-upload-aws-s3-resize",
+  "homepage": "https://github.com/mkorevec/strapi-provider-upload-wasabi-resize",
   "keywords": [
     "upload",
-    "strapi"
+    "strapi",
+    "wasabi",
+    "resize",
+    "optimize"
   ],
   "main": "./lib",
-  "name": "strapi-provider-upload-aws-s3-resize",
+  "name": "strapi-provider-wasabi-resize",
   "repository": {
     "type": "git",
     "url": "git@github.com:WeFlyCheap/strapi-provider-upload-aws-s3-resize.git"
@@ -34,15 +37,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "jelmervisser",
-    "email": "jelmer@weflycheap.nl",
-    "url": "https://www.weflycheap.nl"
+    "name": "mkorevec",
+    "email": "marko@korevec.net",
+    "url": "https://korevec.net"
   },
   "maintainers": [
     {
-      "name": "jelmervisser",
-      "email": "jelmer@weflycheap.nl",
-      "url": "https://www.weflycheap.nl"
+      "name": "mkorevec",
+      "email": "marko@korevec.net",
+      "url": "https://korevec.net"
     }
   ]
 }

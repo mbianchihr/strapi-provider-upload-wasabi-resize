@@ -1,7 +1,6 @@
 # strapi-provider-upload-aws-s3-resize
 
-Add image resizing to strapi S3 upload
-in your strapi admin, change Plugins -> Files upload settings to AWS S3 upload resize.
+Wasabi upload and resizeing with image opitmization in Strapi.
 
 ```
 npm i strapi-provider-upload-aws-s3-resize
@@ -11,12 +10,18 @@ OR
 yarn add strapi-provider-upload-aws-s3-resize
 ```
 
-node resizing library 
-https://github.com/lovell/sharp
+## Usage
 
+### Pre usage requirments
+Make sure `url` and `thumb` atributes exist in your `File.settings.json`
 
-make sure the attributes 'url' and 'thumb exists in your in 
 > extensions/uploads/models/File.settings.json
+
+### Using and Configuring
+1. Go to Strapi Admin panel
+2. Go to Plugins
+3. Go to Files and Settings
+4. Select `Wasabi upload and resize`
 
 #### Example File.settings.json:
 ```
@@ -88,9 +93,16 @@ make sure the attributes 'url' and 'thumb exists in your in
 ```
 
 
+### Credits
+Based on provider [strapi-provider-upload-aws-s3-resize](https://www.npmjs.com/package/strapi-provider-upload-aws-s3-resize)
+Image resizing usign [Sharp](https://github.com/lovell/sharp)
+
 ## Resources
 
 - [MIT License](LICENSE.md)
+
+
+
 
 ## Links
 
