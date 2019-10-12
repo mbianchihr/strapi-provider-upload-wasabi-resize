@@ -31,7 +31,7 @@
   "strapi": {
     "isProvider": true
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
