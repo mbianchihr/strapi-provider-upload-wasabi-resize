@@ -17,13 +17,15 @@ yarn add strapi-provider-upload-wasabi-resize
 
 ## Usage
 
-### Pre usage requirments
-
 ### Using and Configuring
 1. Go to Strapi Admin panel
 2. Go to Plugins
 3. Go to Files and Settings
 4. Select `Wasabi upload and resize`
+5. Fill the id, secret and bucket region
+6. Select your max wanted width from 720-3840
+7. Select your quality from 10-100
+8. Enjoy!
 
 
 ### Credits
