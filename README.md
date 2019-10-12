@@ -1,4 +1,4 @@
-# strapi-provider-wasabi-resize
+# strapi-provider-upload-wasabi-resize
 
 
 // WARNING: Still HEAVYILY WIP, use at your own risk!
@@ -6,11 +6,11 @@
 Wasabi upload and resizeing with image opitmization in Strapi.
 
 ```
-npm i strapi-provider-wasabi-resize
+npm i strapi-provider-upload-wasabi-resize
 
 OR
 
-yarn add strapi-provider-wasabi-resize
+yarn add strapi-provider-upload-wasabi-resize
 ```
 
 ## Usage

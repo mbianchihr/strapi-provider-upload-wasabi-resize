@@ -23,7 +23,7 @@
     "optimize"
   ],
   "main": "./lib",
-  "name": "strapi-provider-wasabi-resize",
+  "name": "strapi-provider-upload-wasabi-resize",
   "repository": {
     "type": "git",
     "url": "git@github.com:mkorevec/strapi-provider-upload-wasabi-resize.git"
@@ -31,7 +31,7 @@
   "strapi": {
     "isProvider": true
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
