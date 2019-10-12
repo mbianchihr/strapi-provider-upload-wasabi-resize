@@ -26,7 +26,7 @@
   "name": "strapi-provider-wasabi-resize",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WeFlyCheap/strapi-provider-upload-aws-s3-resize.git"
+    "url": "git@github.com:mkorevec/strapi-provider-upload-wasabi-resize.git"
   },
   "strapi": {
     "isProvider": true

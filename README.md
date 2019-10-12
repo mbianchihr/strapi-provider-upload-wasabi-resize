@@ -97,8 +97,7 @@ Make sure `url` and `thumb` atributes exist in your `File.settings.json`
 
 
 ### Credits
-Based on provider [strapi-provider-upload-aws-s3-resize](https://www.npmjs.com/package/strapi-provider-upload-aws-s3-resize)
-Image resizing usign [Sharp](https://github.com/lovell/sharp)
+Based on provider [strapi-provider-upload-aws-s3-resize](https://www.npmjs.com/package/strapi-provider-upload-aws-s3-resize), image resizing usign [Sharp](https://github.com/lovell/sharp).
 
 ## Resources
 
